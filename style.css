@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2rem;
+  background-color: #b6426b;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header h1 {
+  color: #f5f5f5;
+  margin: 20px 40px;
+}
+
+.container {
+  width: 130rem;
+  margin: 15rem auto;
+}
+
+.input-form {
+  text-align: center;
+  /* background-color: aqua; */
+  padding: 5rem;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.input-text {
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.input-submit {
+  padding: 1rem;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #ffd54f;
+  transition: all 0.5s;
+}
+
+.input-submit:hover {
+  background-color: #00e676;
+}
+
+.todos {
+  background-color: #eef0d6;
+  border-radius: 10px;
+  color: #424242;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+  background-color: #eef0d6;
+  border-radius: 10px;
+  color: #424242;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  transition: all 0.2s;
+  margin-top: 8rem;
+}
+
+.todo {
+  /* border: 2px solid #444; */
+  padding: 2rem;
+}
+
+ul {
+  text-decoration: none;
+  max-width: 200rem;
+  list-style: none;
+  /* margin-top: 50px; */
+  height: 100vh;
+  overflow: scroll;
+}
+
+.arrow {
+  width: 24px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 5px solid;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.5s;
+  /* text-decoration: line-through; */
+  /* background-color: black; */
+  /* margin-top: 50px; */
+}
+
+.main {
+  display: flex;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 10px;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: #e82c11;
+  border: none;
+}
+
+.delete {
+  background-color: #f44336;
+  color: #eeeeee;
+}
+
+.entry {
+  position: absolute;
+  background-color: #ffd54f;
+  padding: 10px 20px;
+  border-radius: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.form-info {
+  display: flex;
+  justify-content: center;
+  max-width: 100remvh;
+  gap: 5rem;
+  /* align-items: center; */
+}
+
+.dashboard {
+  background-color: #eef0d6;
+  border-radius: 10px;
+  padding: 5rem;
+}
+
+.dashboard-header {
+  margin-bottom: 3rem;
+}
+
+.dashboard p {
+  margin-bottom: 2rem;
+  display: inline-block;
+}
